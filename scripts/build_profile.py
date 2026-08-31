@@ -22,6 +22,8 @@ def build_profile(stage_root: Path) -> str:
 
 ### Multilingual LLM Evaluation · Human Feedback · Benchmarking · Python-Assisted QA
 
+> **Publication context (August 2026):** This profile and its linked repositories were published together as a curated, privacy-safe portfolio release. Their GitHub creation dates record the public release, not when every underlying task was performed.
+
 I turn ambiguous AI outputs and messy datasets into review decisions that another person can inspect, challenge, and reproduce. My work sits at the intersection of language judgment, annotation quality, model evaluation, and lightweight Python automation.
 
 I am especially interested in the hard middle of AI training: defining what “good” means, applying it consistently, documenting edge cases, and converting reviewer feedback into a usable quality signal.
