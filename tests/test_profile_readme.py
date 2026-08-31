@@ -41,6 +41,8 @@ def test_actual_readme_is_publication_safe():
 
 def test_builder_reads_verified_sibling_metrics():
     text = build_profile(STAGE_ROOT)
+    assert "Publication context (August 2026)" in text
+    assert "creation dates record the public release" in text
     assert "60 prompt instances" in text
     assert "2,168 annotations" in text
     assert "77 represented categories" in text
